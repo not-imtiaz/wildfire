@@ -6,3 +6,5 @@ Hi, My name is Imtiaz Ahmed (15) from Bangladesh, representing wildfire made by 
 
 Now, don't freak out. NASA actually gets millions of data from the space and feeds it into a program of NASA named Firms. It is open-sourced and using that, we can get to know if any comets gonna hit us! We're actually safe, it's just a fun project. I'm gonna build this project and everything I'll face will be logged here and in Stardance so, stay tuned.
 
+## Log-1, Hackatime Coding Session: 44Minutes
+![1](assets/readme/1.png)

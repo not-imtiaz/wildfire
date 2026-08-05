@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wildfire.</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div id="sidebar">
+        <h2>wildfire.</h2>
+        <p class="disclaimer"> Information tool based on satellite thermal anomalies, don't take it serious.</p>
+
+        <div class="control-group">
+            <label for="addressInput">Address:</label>
+            <input type="text" id="addressInput" placeholder="Drop your location here">
+            <button id="searchBtn">Locate & Analyze</button>
+        </div>
+
+        <div class="control-group">
+            <label for="radiusSelect">Alert Radius (Miles):</label>
+            <select id="radiusSelect">
+                <option value="10" selected>10</option>
+                <option value="25">25</option>
+                <option value="50">50</option>
+            </select>
+        </div>
+
+        <div id="riskCard" class="card hidden">
+            <h3>Risk Context Score</h3>
+            <div id="scoreDisplay">0</div>
+            <ul id="scoreReasons"></ul>
+        </div>
+
+        <div class="control-group">
+            <label for="timeSlider">Timeline Replay (Last 24 Hours):</label>
+            <input type="range" id="timeSlider" min="0" max="24" value="24" step="1">
+            <span id="timeLabel">Showing all detections</span>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="js/firms.js></script>
+    <script src=" js/scoring.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
