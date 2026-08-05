@@ -11,3 +11,8 @@ Now, don't freak out. NASA actually gets millions of data from the space and fee
 
 As you can see, I made the **index.html** file for the wildfire. It's the base, designs are coming right up.
 
+## Log-2, Hackatime Coding Session: 30Minutes
+![2](assets/readme/2.png)
+
+Made **main.css** in /css folder, it actually gives the website a really nice UI.
+
