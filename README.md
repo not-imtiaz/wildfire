@@ -8,3 +8,6 @@ Now, don't freak out. NASA actually gets millions of data from the space and fee
 
 ## Log-1, Hackatime Coding Session: 44Minutes
 ![1](assets/readme/1.png)
+
+As you can see, I made the **index.html** file for the wildfire. It's the base, designs are coming right up.
+
