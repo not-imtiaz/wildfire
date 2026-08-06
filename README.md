@@ -16,3 +16,14 @@ As you can see, I made the **index.html** file for the wildfire. It's the base, 
 
 Made **main.css** in /css folder, it actually gives the website a really nice UI.
 
+## Log-3, Hackatime Coding Session: 75Minutes
+![3](assets/readme/3.png)
+
+Made **app.js** file in /js folder, it basically makes the whole website functionable.
+
+I used CARTO for the map.
+
+## Log-4, Hackatime Coding Session: 13Minutes
+![4](assets/readme/4.png)
+
+Integrated **Firms** by NASA in **firms.js**, but it doesn't work yet, until the **scoring.js**.
